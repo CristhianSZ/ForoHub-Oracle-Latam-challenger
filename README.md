@@ -17,36 +17,36 @@ Y todo esto únicamente con el acceso autorizado usando la forma STATELESS de au
 ## Caracteristicas de la aplicación y demostración a través de insomnia:
 
 **POST http://localhost:8080/login (autenticación y autorización con el login y clave previamente incluido en la base de datos en la tabla usuarios). Se debe copiar el JWT que regresa el sistema y pegarlo a todas las otras actividades en la parte Auth/Bearer token.**
-![image](https://github.com/CristhianSZ/ForoHub-One-Challenge/blob/main/imagen/imagen1.png)
+![image](https://github.com/CristhianSZ/ForoHub-Oracle-Latam-challenger/blob/main/imagen/imagen1.png)
 
-![image](https://github.com/CristhianSZ/ForoHub-One-Challenge/blob/main/imagen/imagen2.png)
+![image](https://github.com/CristhianSZ/ForoHub-Oracle-Latam-challenger/blob/main/imagen/imagen2.png)
 
   
 
 **POST http://localhost:8080/topicos (Registro de un tópico)** 
 
-![image](https://github.com/CristhianSZ/ForoHub-One-Challenge/blob/main/imagen/imagen3.png)
+![image](https://github.com/CristhianSZ/ForoHub-Oracle-Latam-challenger/blob/main/imagen/imagen3.png)
 
   
 **GET http://localhost:8080/topicos Listar los tópicos que están en la base de datos.**
 
-![image](https://github.com/CristhianSZ/ForoHub-One-Challenge/blob/main/imagen/imagen4.png)
+![image](https://github.com/CristhianSZ/ForoHub-Oracle-Latam-challenger/blob/main/imagen/imagen4.png)
 
   
 
 **GET http://localhost:8080/topicos/{id} Mostrar los datos de tópico con "id" (se pone el id que se desea buscar )**
 
-![image](https://github.com/CristhianSZ/ForoHub-One-Challenge/blob/main/imagen/imagen5.png)
+![image](https://github.com/CristhianSZ/ForoHub-Oracle-Latam-challenger/blob/main/imagen/imagen5.png)
 
   
 **PUT http://localhost:8080/topicos/{id} Modificar el tópico con "id" (se pone el id que se desea modificar y el atributo que se desea modificar)**
 
-![image](https://github.com/CristhianSZ/ForoHub-One-Challenge/blob/main/imagen/imagen6.png)
+![image](https://github.com/CristhianSZ/ForoHub-Oracle-Latam-challenger/blob/main/imagen/imagen6.png)
 
 
 **DEL http://localhost:8080/topicos/2 Eliminar el tópico con "id" de la base de datos, (se pone el id del topico que se desea eliminar)**
 
-![image](https://github.com/CristhianSZ/ForoHub-One-Challenge/blob/main/imagen/imagen7.png)
+![image](https://github.com/CristhianSZ/ForoHub-Oracle-Latam-challenger/blob/main/imagen/imagen7.png)
 
 
 
